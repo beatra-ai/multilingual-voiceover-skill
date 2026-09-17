@@ -14,9 +14,13 @@ Create reviewable voice-over audio for each language from your per-language scri
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="Cover image for a four-language voice-over sample: a dotted world map where voices from the United States, Spain, China and Japan meet in one waveform. AI-generated with Beatra."></p>
+
+*Cover image for a four-language voice-over sample: a dotted world map where voices from the United States, Spain, China and Japan meet in one waveform. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.1.8 |
+| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.1.9 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing). Report issues there.
 
@@ -41,6 +45,23 @@ Or paste this into your agent:
 
 ```text
 Install the ai-multilingual-dubbing skill from https://github.com/beatra-ai/multilingual-voiceover-skill (folder skills/ai-multilingual-dubbing), then follow its SKILL.md to connect my Beatra account.
+```
+
+## Examples
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="Cover image for a four-language voice-over sample: a dotted world map where voices from the United States, Spain, China and Japan meet in one waveform. AI-generated with Beatra."></p>
+
+[▶ Listen (MP3)](assets/sample.mp3)
+
+*The same product line for a fictional language-learning app, Lumo, voiced in English, Mandarin Chinese, Spanish and Japanese from four prepared scripts, one preset voice per language. AI-generated with Beatra.*
+
+Prompt:
+
+```text
+[en] Meet Lumo, the language app that talks back. Ten minutes of real conversation a day, and new words start to stick. Open Lumo, and say hello to the world.
+[zh] 认识一下 Lumo，一个会陪你开口说话的语言学习应用。每天十分钟真实对话，新单词自然记得牢。打开 Lumo，向世界打个招呼吧。
+[es] Te presentamos Lumo, la app de idiomas que te responde. Diez minutos de conversación real al día, y las palabras nuevas se quedan contigo. Abre Lumo y saluda al mundo.
+[ja] Lumoは、話しかけると答えてくれる語学アプリです。毎日10分、本物の会話を続けるだけで、新しい単語が自然と身につきます。Lumoを開いて、世界にあいさつしましょう。
 ```
 
 ## What you get

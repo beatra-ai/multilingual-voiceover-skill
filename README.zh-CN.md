@@ -14,9 +14,13 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="四语配音样例的封面图：点阵世界地图上，来自美国、西班牙、中国和日本的声音汇成一条声波。由 Beatra AI 生成。"></p>
+
+*四语配音样例的封面图：点阵世界地图上，来自美国、西班牙、中国和日本的声音汇成一条声波。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.1.8 |
+| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.1.9 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing) 自动发布，问题请到那里反馈。
 
@@ -40,6 +44,23 @@ gh skill install beatra-ai/multilingual-voiceover-skill ai-multilingual-dubbing
 
 ```text
 从 https://github.com/beatra-ai/multilingual-voiceover-skill 安装 ai-multilingual-dubbing skill（目录 skills/ai-multilingual-dubbing），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 效果示例
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="四语配音样例的封面图：点阵世界地图上，来自美国、西班牙、中国和日本的声音汇成一条声波。由 Beatra AI 生成。"></p>
+
+[▶ 试听（MP3）](assets/sample.mp3)
+
+*虚构语言学习应用 Lumo 的同一句产品文案，按四份写好的脚本分别用英语、普通话、西班牙语和日语配音，每种语言一个预设音色。由 Beatra AI 生成。*
+
+提示词：
+
+```text
+[en] Meet Lumo, the language app that talks back. Ten minutes of real conversation a day, and new words start to stick. Open Lumo, and say hello to the world.
+[zh] 认识一下 Lumo，一个会陪你开口说话的语言学习应用。每天十分钟真实对话，新单词自然记得牢。打开 Lumo，向世界打个招呼吧。
+[es] Te presentamos Lumo, la app de idiomas que te responde. Diez minutos de conversación real al día, y las palabras nuevas se quedan contigo. Abre Lumo y saluda al mundo.
+[ja] Lumoは、話しかけると答えてくれる語学アプリです。毎日10分、本物の会話を続けるだけで、新しい単語が自然と身につきます。Lumoを開いて、世界にあいさつしましょう。
 ```
 
 ## 你能得到什么
