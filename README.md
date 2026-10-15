@@ -20,7 +20,7 @@ Create reviewable voice-over audio for each language from your per-language scri
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.2 |
+| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.5 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing). Report issues there.
 
@@ -95,12 +95,12 @@ Yes. Pilot one meaningful segment per market, review pronunciation, tone, pace, 
 
 Use the target duration to guide script length and pace, compare the returned pilot duration, and refine the spoken wording or edit timing for the final cut.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update ai-multilingual-dubbing` or `gh skill update ai-multilingual-dubbing`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
