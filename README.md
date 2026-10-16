@@ -20,7 +20,7 @@ Create reviewable voice-over audio for each language from your per-language scri
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.5 |
+| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.6 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing). Report issues there.
 
@@ -63,6 +63,12 @@ Prompt:
 [es] Te presentamos Lumo, la app de idiomas que te responde. Diez minutos de conversación real al día, y las palabras nuevas se quedan contigo. Abre Lumo y saluda al mundo.
 [ja] Lumoは、話しかけると答えてくれる語学アプリです。毎日10分、本物の会話を続けるだけで、新しい単語が自然と身につきます。Lumoを開いて、世界にあいさつしましょう。
 ```
+
+## Specs
+
+As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
+
+- **Text to speech** — 2 models (MiniMax Speech 2.8 HD, MiniMax Speech 2.8 Turbo); FLAC, MP3, OPUS, PCM, WAV; 40 languages; up to 44.1 kHz; up to 50000 characters per request
 
 ## What you get
 
@@ -107,3 +113,9 @@ Details: `references/updates-and-security.md` inside the skill.
 [MIT-0](LICENSE) — free to use, modify, and redistribute, including
 commercially. No attribution required. Same terms as these skills carry on
 ClawHub.
+
+## Links
+
+- Website — https://beatra.ai
+- Docs — https://docs.beatra.ai
+- Console — https://console.beatra.ai
