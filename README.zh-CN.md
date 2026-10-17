@@ -63,11 +63,12 @@ gh skill install beatra-ai/multilingual-voiceover-skill ai-multilingual-dubbing
 [ja] Lumoは、話しかけると答えてくれる語学アプリです。毎日10分、本物の会話を続けるだけで、新しい単語が自然と身につきます。Lumoを開いて、世界にあいさつしましょう。
 ```
 
-## 规格
+## 技术规格与输出限制
 
 截至 2026-10-16。实时列表：https://docs.beatra.ai/zh/docs/models
 
-- **语音合成** — 2 个模型（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo）；FLAC、MP3、OPUS、PCM、WAV；40 种语言；最高 44.1 kHz；单次最多 50000 字符
+- **语音合成** — 2 个模型（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo）；FLAC、MP3、OPUS、PCM、WAV；40 种语言；采样率 8、16、22.05、24、32、44.1 kHz；单次最多 50000 字符
+  - 语言（ISO 639 代码）：zh, yue, en, es, fr, ru, de, pt, ar, it, ja, ko, id, vi, tr, nl, uk, th, pl, ro, el, cs, fi, hi, bg, da, he, ms, fa, sk, sv, hr, fil, hu, no, sl, ca, nn, ta, af
 
 ## 为什么用 Beatra，而不是直接调用模型 API
 
