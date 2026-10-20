@@ -1,6 +1,8 @@
 # Multilingual Voiceover Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [Talking Avatar Video Skill](https://github.com/beatra-ai/talking-avatar-video-skill)
 
 Create reviewable voice-over audio for each language from your per-language scripts, with voices cast for each market, pronunciation and timing pilots first, and delivery organized by language and segment, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
@@ -56,6 +58,12 @@ Install the ai-multilingual-dubbing skill from https://github.com/beatra-ai/mult
 [▶ Listen (MP3)](assets/sample.mp3)
 
 *The same product line for a fictional language-learning app, Lumo, voiced in English, Mandarin Chinese, Spanish and Japanese from four prepared scripts, one preset voice per language. AI-generated with Beatra.*
+
+Ask your agent:
+
+```text
+I have the Lumo launch line in four languages (./scripts/en.txt, zh.txt, es.txt, ja.txt). Cast one fitting voice per language, do a short pronunciation check first, then deliver the four reads in order.
+```
 
 Prompt:
 

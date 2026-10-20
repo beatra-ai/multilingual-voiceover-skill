@@ -1,6 +1,8 @@
 # Multilingual Voiceover Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [Talking Avatar Video Skill](https://github.com/beatra-ai/talking-avatar-video-skill)
 
 根据各语言口播稿制作多语言旁白音频，按市场选声，先试听读音、语气和时长，再按语言与片段清晰交付，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
@@ -54,6 +56,12 @@ gh skill install beatra-ai/multilingual-voiceover-skill ai-multilingual-dubbing
 [▶ 试听（MP3）](assets/sample.mp3)
 
 *虚构语言学习应用 Lumo 的同一句产品文案，按四份写好的脚本分别用英语、普通话、西班牙语和日语配音，每种语言一个预设音色。由 Beatra AI 生成。*
+
+在你的 Agent 里这样说：
+
+```text
+Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.txt、ja.txt）。每种语言选一个合适的声音，先做一次简短的发音试读，再按顺序交付四段配音。
+```
 
 提示词：
 
