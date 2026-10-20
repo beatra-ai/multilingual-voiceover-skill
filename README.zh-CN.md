@@ -7,7 +7,7 @@
 根据各语言口播稿制作多语言旁白音频，按市场选声，先试听读音、语气和时长，再按语言与片段清晰交付，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
 > [!IMPORTANT]
-> 生成需要 [Beatra](https://beatra.ai) 账号并消耗积分，安装本身不收费。
+> 生成需要 [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill) 账号并消耗积分，安装本身不收费。
 
 | 问题 | 回答 |
 | --- | --- |
@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.7 |
+| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.8 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing) 自动发布，问题请到那里反馈。
 
@@ -131,8 +131,8 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 
 ## 相关链接
 
-- 官网 — https://www.beatra.cn
-- 文档 — https://docs.beatra.cn
+- 官网 — https://www.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
+- 文档 — https://docs.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - 控制台 — https://console.beatra.cn
 - 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt（索引）· https://www.beatra.cn/llms-full.txt（全部 skill 合成一个文件）
 
