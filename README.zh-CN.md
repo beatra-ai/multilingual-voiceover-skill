@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.8 |
+| [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.9 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing) 自动发布，问题请到那里反馈。
 
@@ -134,7 +134,7 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 - 官网 — https://www.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - 文档 — https://docs.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - 控制台 — https://console.beatra.cn
-- 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt（索引）· https://www.beatra.cn/llms-full.txt（全部 skill 合成一个文件）
+- 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt （索引）· https://www.beatra.cn/llms-full.txt （全部 skill 合成一个文件）
 
 - 微信小程序 — 国内用户微信扫码使用
 
