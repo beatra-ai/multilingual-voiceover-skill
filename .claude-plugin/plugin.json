@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ai-multilingual-dubbing",
+  "displayName": "Multilingual Voiceover",
+  "version": "0.2.9",
+  "description": "Create reviewable multilingual voice-over audio from scripts for each language, with deliberate casting, pronunciation and timing pilots, and delivery organized by market and segment.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/ai-multilingual-dubbing",
+  "repository": "https://github.com/beatra-ai/multilingual-voiceover-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}

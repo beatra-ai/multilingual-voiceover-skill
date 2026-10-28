@@ -1,0 +1,20 @@
+{
+  "name": "multilingual-voiceover-skill",
+  "interface": {
+    "displayName": "Multilingual Voiceover"
+  },
+  "plugins": [
+    {
+      "name": "ai-multilingual-dubbing",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

@@ -35,6 +35,33 @@
 npx skills add beatra-ai/multilingual-voiceover-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/multilingual-voiceover-skill
+claude plugin install ai-multilingual-dubbing@multilingual-voiceover-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/multilingual-voiceover-skill
+codex plugin add ai-multilingual-dubbing@multilingual-voiceover-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/multilingual-voiceover-skill
+copilot plugin install ai-multilingual-dubbing@multilingual-voiceover-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/multilingual-voiceover-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
