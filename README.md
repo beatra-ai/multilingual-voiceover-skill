@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/multilingual-voiceover-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/multilingual-voiceover-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -101,6 +107,13 @@ Prompt:
 [ja] Lumoは、話しかけると答えてくれる語学アプリです。毎日10分、本物の会話を続けるだけで、新しい単語が自然と身につきます。Lumoを開いて、世界にあいさつしましょう。
 ```
 
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Text — Prepared script for each language and market | — | — |
+| **Output** | Audio — Voice-over tracks organized by language, market, and segment | MP3, WAV, FLAC | 40 languages |
+
 ## Technical Specifications & Output Limits
 
 As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
@@ -132,21 +145,21 @@ As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 ## FAQ
 
-### Does it translate and dub an uploaded video automatically?
+### What do I need for each language?
 
-It creates narration audio from scripts prepared for each language and can help shape localized spoken wording. The organized tracks are ready for transcription references, language review, lip sync, and finished-video editing.
+A script in each language. The wording can be tuned for local speech, and the tracks come organized by market and segment for lip sync and editing.
 
-### How are voices selected across languages?
+### Which voice is used for each language?
 
-Match each market with a voice that supports its language and audience; reuse one voice across markets when its language range and delivery fit the full campaign.
+Each market gets a voice that supports its language and suits its audience; one voice can carry across markets when its languages and delivery fit the whole campaign.
 
-### Can I test before producing the whole release?
+### How are the tracks organized?
 
-Yes. Pilot one meaningful segment per market, review pronunciation, tone, pace, and duration, then carry the selected direction into the remaining narration tracks.
+One track per segment, grouped by market and language, as MP3 for direct use or WAV or FLAC for editing.
 
-### How do I tune the narration to a video duration?
+### Can the narration match a video's length?
 
-Use the target duration to guide script length and pace, compare the returned pilot duration, and refine the spoken wording or edit timing for the final cut.
+Yes. Give the target duration, and the script length and pace are set to fit it.
 
 ## Updates and security
 
@@ -157,9 +170,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill).
 
 ## Links
 

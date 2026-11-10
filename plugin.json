@@ -10,6 +10,20 @@
   "homepage": "https://beatra.ai/skills/ai-multilingual-dubbing",
   "repository": "https://github.com/beatra-ai/multilingual-voiceover-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI multilingual dubbing",
+    "AI video dubbing",
+    "video dubbing",
+    "multilingual voiceover",
+    "AI voiceover",
+    "AI video translation audio",
+    "video localization voiceover",
+    "training video localization",
+    "global marketing voiceover",
+    "e-learning localization",
+    "multilingual narration",
+    "text to speech multiple languages"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +33,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/ai-multilingual-dubbing",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use AI Multilingual Dubbing to voice our travel mug promo in English and Japanese. Script attached; match the video's length."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

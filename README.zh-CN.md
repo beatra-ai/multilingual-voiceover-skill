@@ -62,6 +62,12 @@ copilot plugin install ai-multilingual-dubbing@multilingual-voiceover-skill
 gemini extensions install https://github.com/beatra-ai/multilingual-voiceover-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/multilingual-voiceover-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -99,6 +105,13 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 [ja] Lumoは、話しかけると答えてくれる語学アプリです。毎日10分、本物の会話を続けるだけで、新しい単語が自然と身につきます。Lumoを開いて、世界にあいさつしましょう。
 ```
 
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 文本：各语言、各市场的口播稿 | — | — |
+| **输出** | 音频：按语言、市场和片段整理的旁白音频 | MP3、WAV、FLAC | 40 种语言 |
+
 ## 技术规格与输出限制
 
 截至 2026-10-18。实时列表：https://docs.beatra.ai/zh/docs/models
@@ -130,21 +143,21 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 
 ## 常见问题
 
-### 它会自动翻译并配好整条视频吗？
+### 每种语言需要准备什么？
 
-它根据各语言文案制作旁白音频，也可以协助起草更适合当地表达的口播稿；交付音轨按市场和片段整理，便于转录参考、语言审校、口型同步和成片剪辑。
+每种语言一份口播稿。措辞可以调得更贴合当地口语，音轨按市场和片段整理，方便口型同步和剪辑。
 
 ### 多种语言应该怎样选择音色？
 
-为每个市场匹配支持目标语言且适合受众的音色；如果同一声音的语言范围和表达适合完整活动，也可以跨市场沿用。
+每个市场配一个支持目标语言、适合受众的音色；如果同一个音色的语言范围和表达适合整场活动，也可以跨市场沿用。
 
-### 可以先试听再做完整版本吗？
+### 音轨怎么整理？
 
-可以。每个市场先制作一个有代表性的片段，检查读音、语气、节奏和时长，再把选定方向应用到其余音频。
+每个片段一条音轨，按市场和语言分组，直接发布用 MP3，后期剪辑用 WAV 或 FLAC。
 
-### 怎样让旁白贴合原视频时长？
+### 旁白能贴合原视频时长吗？
 
-用目标时长指导文案长度和语速，比较试读返回的实际时长，再围绕最终剪辑调整口播稿或镜头节奏。
+能。给出目标时长，文案长度和语速就按这个时长来定。
 
 ## 更新与安全
 
@@ -154,7 +167,9 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill)。
 
 ## 相关链接
 
