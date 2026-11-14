@@ -12,7 +12,7 @@
 | 項目 | 内容 |
 | --- | --- |
 | **できること** | 各言語の原稿から多言語ナレーション音声を制作。市場ごとに声を選び、発音・話し方・尺を試してから、言語とセグメント別に納品します。 |
-| **モデル** | MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo |
+| **モデル** | MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo、Doubao Seed TTS 2.0、ElevenLabs v4 Turbo、ElevenLabs v4 |
 | **動作要件** | Python 3.10 以上と、`SKILL.md` を読み込めるエージェント |
 | **費用** | インストールは無料。生成のたびに Beatra アカウントのクレジットを消費しますが、課金されるのは、その生成を明示的に依頼したとき、または確認カードを承認したときだけです。 |
 | **対応エージェント** | Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw |
@@ -26,6 +26,8 @@
 | [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.9 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing) から自動的に公開されています。問題の報告はそちらへお願いします。
+
+このスキルは `multilingual-voiceover` としても知られています（インストール名：`ai-multilingual-dubbing`）。
 
 ## インストール
 
@@ -82,6 +84,8 @@ gh skill install beatra-ai/multilingual-voiceover-skill ai-multilingual-dubbing
 https://github.com/beatra-ai/multilingual-voiceover-skill から ai-multilingual-dubbing スキル（フォルダ skills/ai-multilingual-dubbing）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
 
+クリーン環境で動作確認済み：Antigravity CLI (2026-11-09)。
+
 ## 作例
 
 <p align="center"><img src="assets/cover.webp" width="800" alt="4 言語のナレーションサンプルのカバー画像：ドットで描いた世界地図の上で、アメリカ、スペイン、中国、日本の声が 1 つの波形に重なる。Beatra AI で生成。"></p>
@@ -114,9 +118,9 @@ Lumo のローンチコピーを 4 言語で用意しました（./scripts/en.tx
 
 ## 技術仕様と出力上限
 
-2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
+2026-11-14 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
 
-- **音声合成** — 2 モデル（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo）／FLAC、MP3、OPUS、PCM、WAV／40 言語／サンプルレート 8、16、22.05、24、32、44.1 kHz／1 リクエストあたり最大 50000 文字
+- **音声合成** — 5 モデル（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo、Doubao Seed TTS 2.0、ElevenLabs v4 Turbo、ElevenLabs v4）／FLAC、MP3、OPUS、PCM、WAV／40 言語／サンプルレート 8、16、22.05、24、32、44.1 kHz／1 リクエストあたり最大 50000 文字
   - 言語（ISO 639 コード）：zh, yue, en, es, fr, ru, de, pt, ar, it, ja, ko, id, vi, tr, nl, uk, th, pl, ro, el, cs, fi, hi, bg, da, he, ms, fa, sk, sv, hr, fil, hu, no, sl, ca, nn, ta, af
 
 ## 得られるもの
@@ -164,6 +168,7 @@ Lumo のローンチコピーを 4 言語で用意しました（./scripts/en.tx
 
 ## リンク
 
+- スキルページ — https://beatra.ai/skills/ai-multilingual-dubbing?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - コンソール — https://console.beatra.ai

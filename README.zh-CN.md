@@ -12,7 +12,7 @@
 | 问题 | 回答 |
 | --- | --- |
 | **能做什么** | 根据各语言口播稿制作多语言旁白音频，按市场选声，先试听读音、语气和时长，再按语言与片段清晰交付。 |
-| **底层模型** | MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo |
+| **底层模型** | MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo、Doubao Seed TTS 2.0、ElevenLabs v4 Turbo、ElevenLabs v4 |
 | **运行要求** | Python 3.10+，以及能加载 `SKILL.md` 的 Agent |
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw |
@@ -26,6 +26,8 @@
 | [`ai-multilingual-dubbing`](skills/ai-multilingual-dubbing) | [SKILL.md](skills/ai-multilingual-dubbing/SKILL.md) | 0.2.9 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-multilingual-dubbing) 自动发布，问题请到那里反馈。
+
+该 Skill 也常被称为 `multilingual-voiceover`（安装名为 `ai-multilingual-dubbing`）。
 
 ## 安装
 
@@ -82,6 +84,8 @@ gh skill install beatra-ai/multilingual-voiceover-skill ai-multilingual-dubbing
 从 https://github.com/beatra-ai/multilingual-voiceover-skill 安装 ai-multilingual-dubbing skill（目录 skills/ai-multilingual-dubbing），然后按它的 SKILL.md 连接我的 Beatra 账号。
 ```
 
+干净环境实测通过：Antigravity CLI (2026-11-09)。
+
 ## 效果示例
 
 <p align="center"><img src="assets/cover.webp" width="800" alt="四语配音样例的封面图：点阵世界地图上，来自美国、西班牙、中国和日本的声音汇成一条声波。由 Beatra AI 生成。"></p>
@@ -114,14 +118,14 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 
 ## 技术规格与输出限制
 
-截至 2026-10-18。实时列表：https://docs.beatra.ai/zh/docs/models
+截至 2026-11-14。实时列表：https://docs.beatra.ai/zh/docs/models
 
-- **语音合成** — 2 个模型（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo）；FLAC、MP3、OPUS、PCM、WAV；40 种语言；采样率 8、16、22.05、24、32、44.1 kHz；单次最多 50000 字符
+- **语音合成** — 5 个模型（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo、Doubao Seed TTS 2.0、ElevenLabs v4 Turbo、ElevenLabs v4）；FLAC、MP3、OPUS、PCM、WAV；40 种语言；采样率 8、16、22.05、24、32、44.1 kHz；单次最多 50000 字符
   - 语言（ISO 639 代码）：zh, yue, en, es, fr, ru, de, pt, ar, it, ja, ko, id, vi, tr, nl, uk, th, pl, ro, el, cs, fi, hi, bg, da, he, ms, fa, sk, sv, hr, fil, hu, no, sl, ca, nn, ta, af
 
 ## 为什么用 Beatra，而不是直接调用模型 API
 
-- **一个账号用到本 skill 的全部模型** — 语音合成 2（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo）（截至 2026-10-18），一次 Beatra 登录即可使用，不必分别管理各家模型的 key。
+- **一个账号用到本 skill 的全部模型** — 语音合成 5（MiniMax Speech 2.8 HD、MiniMax Speech 2.8 Turbo、Doubao Seed TTS 2.0、ElevenLabs v4 Turbo、ElevenLabs v4）（截至 2026-11-14），一次 Beatra 登录即可使用，不必分别管理各家模型的 key。
 - **花不花钱由你决定** — 只有你明确要求这次生成，或批准显示实时积分估算的确认卡后才会付费。
 - **先策划，再生成** — skill 先帮你规划、指导和检查，再在 Beatra 上生成。
 - **文件可以核验** — `skills/` 下的每个文件都与 cdn.beatra.ai 上的发布归档逐字节一致，每次推送前用 SHA-256 校验。
@@ -173,6 +177,7 @@ Lumo 的上线文案我准备了四种语言（./scripts/en.txt、zh.txt、es.tx
 
 ## 相关链接
 
+- Skill 详情页 — https://www.beatra.cn/skills/ai-multilingual-dubbing?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - 官网 — https://www.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - 文档 — https://docs.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=multilingual-voiceover-skill
 - 控制台 — https://console.beatra.cn
