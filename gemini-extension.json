@@ -1,5 +1,5 @@
 {
   "name": "ai-multilingual-dubbing",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Create reviewable multilingual voice-over audio from scripts for each language, with deliberate casting, pronunciation and timing pilots, and delivery organized by market and segment."
 }
